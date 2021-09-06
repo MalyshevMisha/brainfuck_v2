@@ -5,12 +5,12 @@
 class Invoker
 {
 public:
-	virtual ~Invoker() = default;
-	virtual Command * invoke(const char &) = 0;
+	virtual ~Invoker() {};
+	virtual std::shared_ptr<Command> invoke(const char &) = 0;
 };
 
 class Brainfuck_invoker : public Invoker
 {
 public:
-	Command * invoke(const char &) override;
+	std::shared_ptr<Command> invoke(const char &) override;
 };

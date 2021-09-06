@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Compiler">
       <UniqueIdentifier>{3d5c4448-935e-47fd-92d0-123a7a0bc236}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{a6d4d614-de56-40a0-963f-e1c3423e9132}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -45,14 +48,20 @@
     <ClCompile Include="Executor.cpp">
       <Filter>Source Files\Executor</Filter>
     </ClCompile>
-    <ClCompile Include="Receiver.cpp">
-      <Filter>Source Files\Executor</Filter>
-    </ClCompile>
     <ClCompile Include="Invoker.cpp">
       <Filter>Source Files\Invoker</Filter>
     </ClCompile>
     <ClCompile Include="Compiler.cpp">
       <Filter>Source Files\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>Source Files\Executor</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Activity.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,9 +74,6 @@
     <ClInclude Include="Command.h">
       <Filter>Header Files\Invoker</Filter>
     </ClInclude>
-    <ClInclude Include="Receiver.h">
-      <Filter>Header Files\Executor</Filter>
-    </ClInclude>
     <ClInclude Include="Executor.h">
       <Filter>Header Files\Executor</Filter>
     </ClInclude>
@@ -76,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="Compiler.h">
       <Filter>Header Files\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>Header Files\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files\View</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

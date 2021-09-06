@@ -1,29 +1,29 @@
 #include"Invoker.h"
 
-Command * Brainfuck_invoker::invoke(const char & input_symbol)
+std::shared_ptr<Command> Brainfuck_invoker::invoke(const char & input_symbol) 
 {
 	switch (input_symbol)
 	{
 	case '>':
-		return new Next_command();
+		return std::make_shared<Next_command>();
 		break;
 	case '<':
-		return new Prev_command();
+		return std::make_shared<Prev_command>();
 		break;
 	case '+':
-		return new Incr_command();
+		return std::make_shared<Incr_command>();
 		break;
 	case '-':
-		return new Decr_command();
+		return std::make_shared<Decr_command>();
 		break;
 	case '.':
-		return new Print_command();
+		return std::make_shared<Print_command>();
 		break;
 	case '[':
-		return new Start_loop_command();
+		return std::make_shared<Start_loop_command>();
 		break;
 	case ']':
-		return new End_loop_command();
+		return std::make_shared<End_loop_command>();
 		break;
 	}
 	return NULL;

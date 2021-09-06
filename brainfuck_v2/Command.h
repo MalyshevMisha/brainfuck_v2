@@ -5,7 +5,7 @@
 class Command
 {
 public:
-	virtual ~Command() = default;
+	virtual ~Command() {}
 	virtual Command_status execute(std::shared_ptr<Receiver>) = 0;
 };
 

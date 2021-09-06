@@ -1,5 +1,5 @@
 #pragma once
-#include<vector>
+#include<string>
 
 class Receiver
 {
@@ -14,7 +14,7 @@ public:
 class Storage : public Receiver
 {
 private:
-	std::vector<char> data;
+	std::string data;
 	uint16_t current_pos;
 public:
 	Storage();

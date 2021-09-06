@@ -1,29 +1,4 @@
-﻿  Compiler.cpp
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1799): error C2259: 'Command': cannot instantiate abstract class
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1799): note: due to following members:
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1799): note: 'Command_status Command::execute(std::shared_ptr<Receiver>)': is abstract
-  d:\work\teamdev\test_pr\brainfuck_v2\brainfuck_v2\command.h(9): note: see declaration of 'Command::execute'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1865): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<Command*>(Command *&&)' being compiled
-          with
-          [
-              _Ty=Command
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<Command*>(Command *&&)' being compiled
-          with
-          [
-              _Ty=Command
-          ]
-  d:\work\teamdev\test_pr\brainfuck_v2\brainfuck_v2\compiler.cpp(9): note: see reference to function template instantiation 'std::shared_ptr<Command> std::make_shared<Command,Command*>(Command *&&)' being compiled
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1801): error C2664: 'Command::Command(const Command &)': cannot convert argument 1 from '_Ty' to 'const Command &'
-          with
-          [
-              _Ty=Command *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1799): note: Reason: cannot convert from '_Ty' to 'const Command'
-          with
-          [
-              _Ty=Command *
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1799): note: No constructor could take the source type, or constructor overload resolution was ambiguous
-  Invoker.cpp
-  Generating Code...
+﻿  Executor.cpp
+d:\work\teamdev\test_pr\brainfuck_v2\brainfuck_v2\executor.cpp(7): warning C4018: '<': signed/unsigned mismatch
+d:\work\teamdev\test_pr\brainfuck_v2\brainfuck_v2\executor.cpp(18): warning C4018: '<=': signed/unsigned mismatch
+  brainfuck_v2.vcxproj -> D:\Work\teamdev\test_pr\brainfuck_v2\Debug\brainfuck_v2.exe

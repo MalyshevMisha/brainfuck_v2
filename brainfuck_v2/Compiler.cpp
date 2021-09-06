@@ -6,7 +6,8 @@ std::vector<std::shared_ptr<Command>> Brainfuck_compiler::execute(const std::str
 	std::unique_ptr<Invoker> inv(new Brainfuck_invoker);
 	for (const auto & i : brainfuckcode)
 	{
-		res.emplace_back(inv->invoke(i));
+		if(inv->invoke(i))
+			res.emplace_back(inv->invoke(i));
 	}
 	return res;
 }

@@ -130,6 +130,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Main_Activity.cpp" />
     <ClCompile Include="Receiver.cpp" />
+    <ClCompile Include="Func_tests.cpp" />
     <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +138,7 @@
     <ClInclude Include="Command.h" />
     <ClInclude Include="Compiler.h" />
     <ClInclude Include="Executor.h" />
+    <ClInclude Include="Func_tests.h" />
     <ClInclude Include="Invoker.h" />
     <ClInclude Include="Main_Activity.h" />
     <ClInclude Include="Receiver.h" />

@@ -1,4 +1,2 @@
-﻿  Executor.cpp
-d:\work\teamdev\test_pr\brainfuck_v2\brainfuck_v2\executor.cpp(7): warning C4018: '<': signed/unsigned mismatch
-d:\work\teamdev\test_pr\brainfuck_v2\brainfuck_v2\executor.cpp(18): warning C4018: '<=': signed/unsigned mismatch
+﻿  Func_tests.cpp
   brainfuck_v2.vcxproj -> D:\Work\teamdev\test_pr\brainfuck_v2\Debug\brainfuck_v2.exe
